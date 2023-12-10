@@ -14,6 +14,16 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    keyframes: {
+      master: {
+        '0%': { 
+          transform: 'translateX(20px)'
+          
+        },
+        '50%': { transform: 'rotate(3deg)'},
+        '100%': { transform: 'rotate(-3deg)'}
+      }
+    },
   },
   plugins: [],
 }
