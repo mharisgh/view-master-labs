@@ -10,7 +10,7 @@ const myFont = localFont({ src: './fonts/Lekton-Bold.ttf' })
 
 export default function Home() {
   return (
-    <main className="transition min-h-screen flex flex-col justify-between ">
+    <main className="transition min-h-[95vh]  md:min-h-screen flex flex-col justify-between ">
 
       {/* navbar */}
       <motion.nav
