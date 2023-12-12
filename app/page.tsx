@@ -19,7 +19,7 @@ export default function Home() {
         transition={{ duration: 1 }}
 
         className='flex w-full justify-between  pt-4 lg:px-10 px-4 items-center'>
-        <p className='tracking-tighter lg:text-xl hover:opacity-70 cursor-pointer text-green-400 font-bold'>VewMaster<span className='text-white'> Labs</span>.</p>
+        <p className='tracking-tighter lg:text-xl hover:opacity-70 cursor-pointer text-green-400 font-bold'>ViewMaster<span className='text-white'> Labs</span>.</p>
         <p className='font-semibold opacity-60 hover:opacity-100 cursor-pointer text-xs lg:text-md'>EN</p>
       </motion.nav>
 
