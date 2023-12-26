@@ -65,10 +65,10 @@ export default function Home() {
             className='relative mx-auto w-fit overflow-hidden flex justify-center items-center'>
 
             <img src="vr.webp" className='animate-[device_10s_ease-in-out_infinite]  z-10 md:max-w-[50vw] lg:max-w-[80vh]' alt="" />
-            <p className='mt-4 hidden md:block lg:animate-[master_10s_ease-in-out_infinite] text-[2.5rem] md:text-[5rem] font-black bg-clip-text text-transparent bg-gradient-to-b from-gray-500 to-slate-100 absolute'>MASTER</p>
+            <p className='mt-4 hidden md:block lg:animate-[master_10s_ease-in-out_infinite] text-[2.5rem] md:text-[5rem] font-black bg-clip-text text-transparent bg-gradient-to-b from-gray-500 to-slate-100 absolute z-[10]'>MASTER</p>
           </motion.div>
 
-          <div className='absolute  w-full h-full flex justify-center items-center'>
+          <div className='absolute z-[2]  w-full h-full flex justify-center items-center'>
           <p className='mt-16  md:hidden text-[3rem] font-black bg-clip-text text-transparent bg-gradient-to-b from-gray-500 to-slate-100 '>MASTER</p>
           </div>
         </div>
