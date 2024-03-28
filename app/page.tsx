@@ -15,7 +15,7 @@ export default function Home() {
         transition={{ duration: 1 }}
 
         className='flex w-full justify-between  pt-4 lg:px-10 px-4 items-center'>
-        <p className='tracking-tighter lg:text-xl hover:opacity-70 cursor-pointer text-green-400 font-bold'>VewMaster<span className='text-white'> Labs</span>.</p>
+        <p className='tracking-tighter lg:text-xl hover:opacity-70 cursor-pointer text-green-400 font-bold'>ViewMaster<span className='text-white'> Labs</span>.</p>
         <p className='font-semibold opacity-60 hover:opacity-100 cursor-pointer text-xs lg:text-md'>EN</p>
       </motion.nav>
 
@@ -53,7 +53,7 @@ export default function Home() {
             transition={{ duration: 2 }}
             className='relative mx-auto w-fit overflow-hidden flex justify-center items-center'>
             <img src="vr.webp" className='animate-[device_10s_ease-in-out_infinite]  z-10 md:max-w-[50vw] lg:max-w-[80vh]' alt="" />
-            <p className='mt-4 animate-[mastermobile_10s_ease-in-out_infinite] lg:animate-[master_10s_ease-in-out_infinite] text-[2.5rem] md:text-[6rem] font-black bg-clip-text text-transparent bg-gradient-to-b from-gray-500 to-slate-100 absolute'>MASTER</p>
+            <p className='mt-4 animate-[mastermobile_10s_ease-in-out_infinite] lg:animate-[master_10s_ease-in-out_infinite] text-[2.5rem] md:text-[5.5rem] font-black bg-clip-text text-transparent bg-gradient-to-b from-gray-500 to-slate-100 absolute'>MASTER</p>
           </motion.div>
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function Home() {
           <div className='flex gap-10 justify-center'>
             <a href="#"><img className='lg:w-[30px] hover:opacity-100 w-[20px] invert opacity-50 ' src="twitter-alt.svg" alt="twitter" /></a>
             <a href="#"><img className='lg:w-[30px] hover:opacity-100 w-[20px] invert opacity-50 ' src="youtube.svg" alt="youtube" /></a>
-            <a href="mailto:hello@viewmasterlabs.com"><img className='lg:w-[30px] w-[20px] invert opacity-50 hover:opacity-100 ' src="mail-line.svg" alt="email link" /></a>
+            <a href="mailto:hellomharis@gmail.com"><img className='lg:w-[30px] w-[20px] invert opacity-50 hover:opacity-100 ' src="mail-line.svg" alt="email link" /></a>
             <a href="#"><img className='lg:w-[30px] w-[20px] invert opacity-50 hover:opacity-100' src="instagram.svg" alt="instagram" /></a>
             <a href="#"><img className='lg:w-[30px] w-[20px] invert opacity-50 hover:opacity-100' src="linkedin.svg" alt="linkedin" /></a>
           </div>
